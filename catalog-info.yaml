@@ -1,4 +1,14 @@
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rajat965ng
+spec:
+  profile:
+    displayName: Rajat Nigam
+    email: rnigam@redhat.com
+  memberOf: [employees]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: quarkus-app
@@ -8,4 +18,4 @@ metadata:
 spec:
   type: other
   lifecycle: development
-  owner: user:default/guest
+  owner: user:rajat965ng
