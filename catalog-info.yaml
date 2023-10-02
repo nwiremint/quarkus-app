@@ -4,7 +4,8 @@ metadata:
   name: quarkus-app
   annotations:
     github.com/project-slug: nwiremint/quarkus-app
+    argocd/app-name: quarkus-app
 spec:
   type: other
   lifecycle: development
-  owner: rajat965ng
+  owner: user:guest
